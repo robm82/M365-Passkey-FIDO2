@@ -89,5 +89,5 @@ if ($ExportToCsv) {
 }
 
 # Disconnect from Microsoft Graph
-#Disconnect-MgGraph | Out-Null
+Disconnect-MgGraph | Out-Null
 Write-Host "Disconnected from Microsoft Graph."
